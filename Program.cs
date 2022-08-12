@@ -33,16 +33,16 @@
 // Задача 15: Напишите программу, которая принимает на вход цифру, обозначающую день недели, 
 // и проверяет, является ли этот день выходным.
 
-Console.Clear();
-Console.WriteLine("Введите день(число) недели(1-7): ");
-int a = Convert.ToInt32(Console.ReadLine());
-int count = 5;
+// Console.Clear();
+// Console.WriteLine("Введите день(число) недели(1-7): ");
+// int a = Convert.ToInt32(Console.ReadLine());
+// int count = 5;
 
-if (a <= count)
-{
-    Console.WriteLine("Это рабочий день");
-}
-else
-{
-    Console.WriteLine("Это выходной день");
-}
+// if (a <= count)
+// {
+//     Console.WriteLine("Это рабочий день");
+// }
+// else
+// {
+//     Console.WriteLine("Это выходной день");
+// }
