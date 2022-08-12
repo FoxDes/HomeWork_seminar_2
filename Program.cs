@@ -13,21 +13,22 @@
 // Задача 13: Напишите программу, которая выводит третью цифру заданного числа или сообщает,
 // что третьей цифры нет.
 
-// Console.Clear();
-// Console.Write("Введите число: ");
-// int a = Convert.ToInt32(Console.ReadLine());
-// string list = Convert.ToString(a);
-// int b = 123;
-// string c = Convert.ToString(b);
+Console.Clear();
+Console.Write("Введите число: ");
+int a = Convert.ToInt32(Console.ReadLine());
+string list = Convert.ToString(a);
+int b = 100;
+string list2 = Convert.ToString(b);
+string c = Convert.ToString(b);
 
-// if (a >= b)
-// {
-//     Console.WriteLine("Третья цифра заданного числа" + " " + list[2]);
-// }
-// else
-// {
-//     Console.WriteLine("Третьей цифры нет");
-// }
+if (a >= b)
+{
+    Console.WriteLine("Третья цифра заданного числа" + " " + list[2]);
+}
+else
+{
+    Console.WriteLine("Третьей цифры нет");
+}
 
 
 // Задача 15: Напишите программу, которая принимает на вход цифру, обозначающую день недели, 
